@@ -1,4 +1,6 @@
 const prefix = "G";
+const Discord = require("discord.js");
+const client = new Discord.Client();
 
 client.on("message", message => {
 let args = message.content.split(" ")
